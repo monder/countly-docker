@@ -1,4 +1,4 @@
-FROM countly/countly-server
+FROM countly/countly-server:16.02
 
 # Disable mongo
 RUN rm -rf /etc/service/mongodb
